@@ -59,5 +59,6 @@ class Rectangle:
             return '\n'.join('#' * self.width for _ in range(self.height))
 
     def __repr__(self):
-        return ("Rectangle(" + str(self.__width) +
-                ", " + str(self.__width) + ") ")
+        x = "Rectangle(" + str(self.__width)
+        x += ", " + str(self.__height) + ")"
+        return (x)

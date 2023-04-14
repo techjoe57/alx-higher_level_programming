@@ -8,8 +8,10 @@ definitions
 class Rectangle:
     """
     Defines the class Rectangle
-    number_of_instances: increments or decremets based on creation or deletion of instances
-    print_symbol: symbol for string representation, can be of any type but is initialized as #
+    number_of_instances: increments or decremets based
+    on creation or deletion of instances
+    print_symbol: symbol for string representation, can
+    be of any type but is initialized as #
 
     """
     number_of_instances = 0

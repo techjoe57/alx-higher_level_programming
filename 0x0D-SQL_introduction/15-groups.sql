@@ -3,4 +3,4 @@
 -- The result displays: the score and number of records 
 -- with the label number
 -- Sort the number of records (descending)
-SELECT score, COUNT(score) AS number FROM second_table GROUP BY score;
+SELECT score, COUNT(1) AS number FROM second_table GROUP BY score ORDER BY number DESC;

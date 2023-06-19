@@ -1,14 +1,9 @@
 #!/usr/bin/node
-const value = Number(process.argv[2]);
-let pattern = '';
-if (isNaN(value)) {
+const size = Number(process.argv[2]);
+if (isNaN(size)) {
   console.log('Missing size');
 } else {
-  for (let i = 0; i < value; i++) {
-    for (let j = 0; j < value; j++) {
-      pattern += 'X';
-    }
-    pattern += '\n';
+  for (let i = 0; i < size; i++) {
+    console.log('X'.repeat(size));
   }
-  console.log(pattern);
 }

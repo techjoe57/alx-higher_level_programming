@@ -1,3 +1,4 @@
+#!/usr/bin/node
 module.exports = {
   callMeMoby: function (x, f) {
     let i = 0;

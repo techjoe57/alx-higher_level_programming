@@ -1,8 +1,7 @@
 #!/usr/bin/node
 exports.esrever = function (list) {
-  arr1 = [];
-  list.forEach(element => {
-    arr1.unshift(element);
-  });
-  console.log(arr1);
-};
+    return list.reduceRight(function (array, current) {
+      array.push(current);
+      return array;
+    }, []);
+  };

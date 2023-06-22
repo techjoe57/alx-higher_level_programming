@@ -1,3 +1,4 @@
+#!/usr/bin/node
 exports.esrever = function (list) {
   arr1 = [];
   list.forEach(element => {
